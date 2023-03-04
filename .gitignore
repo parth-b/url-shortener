@@ -1,0 +1,15 @@
+.DS_Store
+*.swp
+
+.gradle
+**/build/
+!gradle/wrapper/gradle-wrapper.jar
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+**/out/
+
+# in case of any changes here, also consider doing the same in .dockerignore

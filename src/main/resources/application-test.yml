@@ -1,0 +1,4 @@
+spring:
+  flyway:
+    group: true
+    locations: ['classpath:db/migration', 'classpath:db/fixtures/test']
